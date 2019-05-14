@@ -854,6 +854,7 @@ ul>li:hover {
     height: 100%;
     position: absolute;
     background: url(../img/portfolio/start.png);
+    background-size: cover;
 }
 
 .loader {
