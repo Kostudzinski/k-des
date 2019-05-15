@@ -1128,6 +1128,7 @@ ul>li:hover {
     opacity: .7;
     margin-left: 10px;
     filter: opacity(.9);
+    cursor: pointer;
 }
 
 .play-icon {
@@ -1166,6 +1167,7 @@ ul>li:hover {
 
 .inactive {
     opacity: 0.2;
+    cursor: default;
 }
 
 .laptop {
@@ -1192,6 +1194,73 @@ ul>li:hover {
 }
 
 .portfolio-img {
+    width: 100%;
+}
+
+
+/*PHONE*/
+
+.phone-show {
+    /*
+    width: 210px;
+    height: 410px;
+    background-image: url(../img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -10px;
+    left: -40px;
+    z-index: 30;
+    display: none;
+*/
+    width: 235px;
+    height: 465px;
+    background-image: url(../img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -60px;
+    left: -40px;
+    z-index: 30;
+    display: none;
+}
+
+.phone-display {
+    display: block;
+}
+
+.phone-zoom {
+    bottom: 85px;
+    left: 300px;
+}
+
+.cross-mobile {
+    transform: rotate(0) scale(1);
+    left: -25px;
+    top: 90px;
+    cursor: pointer;
+}
+
+.crossed-mobile {
+    background: #101010;
+    width: 1px;
+}
+
+.back-mobile {
+    width: 87%;
+    height: 94%;
+    position: absolute;
+    background: black;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+
+.back-mobile img {
     width: 100%;
 }
 
@@ -1525,6 +1594,30 @@ ul>li:hover {
     border: 1px solid #444;
 }
 
+.desktop-window {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid #101010;
+    position: relative;
+    bottom: 130px;
+    background: #fff;
+    display: none;
+}
+
+.desktop-window>p {
+    padding: 60px;
+    text-align: center;
+}
+
+.button-ok {
+    top: 0px;
+}
+
+.display-ok {
+    display: block;
+}
+
 .text-about {
     margin-top: 10vh;
     margin-right: 100px;
@@ -1674,6 +1767,14 @@ footer span {
 
 .fade-away {
     right: -100px;
+}
+
+.text-footer-c a {
+    color: #fff;
+}
+
+.text-footer-c a:nth-child(2) {
+    padding: 20px;
 }
 
 #footer::selection {

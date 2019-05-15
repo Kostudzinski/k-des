@@ -44,7 +44,7 @@
     }
     .arrows {
         right: 993px;
-        top: 380px;        
+        top: 380px;
     }
 }
 
@@ -116,6 +116,12 @@
     .color-square,
     .black-line {
         display: none;
+    }
+    .start-screen {
+        background: none;
+    }
+    .button-start {
+        top: 50%;
     }
     .laptop-container {
         position: absolute;

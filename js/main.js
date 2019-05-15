@@ -18,6 +18,8 @@
      chooseSlides();
      zoom();
      //     mouseSquare();
+     mobileShow();
+     ok();
  });
 
  $(window).scroll(function () {
@@ -406,6 +408,7 @@
                  $('.arrow-right').removeClass('arrow-right-zoom');
                  $('.cross-right').removeClass('slides');
                  $('.cross-left').removeClass('cross-left-zoom');
+                 $('.phone-show').removeClass('phone-zoom');
 
                  setTimeout(function () {
                      $([document.documentElement, document.body]).animate({
@@ -433,6 +436,7 @@
          $('.arrow-right').toggleClass('arrow-right-zoom');
          $('.cross-right').toggleClass('slides');
          $('.cross-left').toggleClass('cross-left-zoom');
+         $('.phone-show').toggleClass('phone-zoom');
 
 
 
@@ -450,3 +454,20 @@
  //         }
  //     })
  // }
+
+ function mobileShow() {
+     $('.mobile-icon').click(function () {
+         var parent = $(this).parents(".mySlides");
+         var phone = $(parent).find(".phone-show");
+         phone.toggleClass('phone-display');
+         $('.cross-mobile').click(function () {
+             phone.removeClass('phone-display');
+         })
+     });
+ }
+
+function ok() {
+    $('.button-portfolio').click(function() {
+        $('.desktop-window').toggleClass('display-ok');
+    })
+}
