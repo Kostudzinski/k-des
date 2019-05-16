@@ -12,7 +12,7 @@
          $('.card-line').addClass('card-line-on');
          $('.studzinski-cover').addClass('studzinski-cover-on');
          $('.black-square-cover').addClass('black-square-cover-on');
-     }, 2400);
+     }, 2300);
      loader.className += ' hidden';
  });
 
