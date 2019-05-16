@@ -204,14 +204,36 @@ ul>li:hover {
     font-weight: 100;
 }
 
+.load-cover {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 400px;
+}
+
+.load-cover-on {
+    animation: load 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes load {
+    100% {
+        right: -130px;
+    }
+}
+
+/*
 .narrow {
     animation: narrow 2s;
     animation-fill-mode: forwards;
     animation-delay: .5s;
 }
+*/
 
 .height {
-    animation: height 1s;
+    animation: height 1.7s;
     animation-fill-mode: forwards;
 }
 
@@ -222,6 +244,7 @@ ul>li:hover {
     }
 }
 
+/*
 @keyframes narrow {
     50% {
         width: 0px;
@@ -232,6 +255,7 @@ ul>li:hover {
         height: 0px;
     }
 }
+*/
 
 @keyframes height {
     100% {

@@ -2,7 +2,7 @@
 
  window.addEventListener('load', function () {
      const loader = document.querySelector('.start-loader');
-     $('.load-square').addClass('narrow');
+     $('.load-cover').addClass('load-cover-on');
      $('.loading-par').addClass('height');
      $('.navigations').addClass('navigations-on');
      setTimeout(function () {
