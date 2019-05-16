@@ -1,18 +1,20 @@
  'use strict';
 
-window.addEventListener('load', function() {
-    const loader = document.querySelector('.start-loader');
-    $('.load-square').addClass('narrow');
-    $('.loading-par').addClass('height');
-    $('.navigations').addClass('navigations-on');
-    $('.black-square').addClass('black-square-on');
-    $('.gray-square').addClass('gray-square-on');
-    $('.designer').addClass('designer-on');
-    $('.card-line').addClass('card-line-on');
-    $('.studzinski-cover').addClass('studzinski-cover-on');
-    $('.black-square-cover').addClass('black-square-cover-on');
-    loader.className += ' hidden';
-});
+ window.addEventListener('load', function () {
+     const loader = document.querySelector('.start-loader');
+     $('.load-square').addClass('narrow');
+     $('.loading-par').addClass('height');
+     $('.navigations').addClass('navigations-on');
+     setTimeout(function () {
+         $('.black-square').addClass('black-square-on');
+         $('.gray-square').addClass('gray-square-on');
+         $('.designer').addClass('designer-on');
+         $('.card-line').addClass('card-line-on');
+         $('.studzinski-cover').addClass('studzinski-cover-on');
+         $('.black-square-cover').addClass('black-square-cover-on');
+     }, 2500);
+     loader.className += ' hidden';
+ });
 
  $(document).ready(function () {
      parallax();
@@ -481,8 +483,8 @@ window.addEventListener('load', function() {
      });
  }
 
-function ok() {
-    $('.button-portfolio').click(function() {
-        $('.desktop-window').toggleClass('display-ok');
-    })
-}
+ function ok() {
+     $('.button-portfolio').click(function () {
+         $('.desktop-window').toggleClass('display-ok');
+     })
+ }

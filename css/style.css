@@ -667,7 +667,7 @@ ul>li:hover {
 }
 
 .designer-on {
-    animation: designer-opacity 1.1s linear .4s forwards;
+    animation: designer-opacity 1.1s linear 1.4s forwards;
 }
 
 .studzinski {
