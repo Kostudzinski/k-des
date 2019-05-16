@@ -1,5 +1,12 @@
  'use strict';
 
+window.addEventListener('load', function() {
+    const loader = document.querySelector('.start-loader');
+    $('.load-square').addClass('narrow');
+    $('.loading-p').addClass('height');
+    loader.className += ' hidden';
+});
+
  $(document).ready(function () {
      parallax();
      scrollSlow();

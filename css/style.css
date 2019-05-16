@@ -162,6 +162,85 @@ ul>li:hover {
 }
 
 
+/*LOADER*/
+
+.start-loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    z-index: 99;
+}
+
+.start-loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+.load-square {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #eee;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading-p {
+    position: absolute;
+    left: 59%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    height: 35px;
+}
+
+.loading-p p {
+    font-size: 25px;
+    margin: 0;
+    letter-spacing: 35px;
+    font-weight: 100;
+}
+
+.narrow {
+    animation: narrow 2s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+.height {
+    animation: height 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes narrow {
+    50% {
+        width: 0px;
+        height: 150px;
+    }
+    
+    100% {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@keyframes height {
+    100% {
+        height: 0px;
+    }
+}
+
+
 /*BURGER*/
 
 #burger-menu {
