@@ -1325,19 +1325,6 @@ ul>li:hover {
 /*PHONE*/
 
 .phone-show {
-    /*
-    width: 210px;
-    height: 410px;
-    background-image: url(../img/phone.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    bottom: -10px;
-    left: -40px;
-    z-index: 30;
-    display: none;
-*/
     width: 235px;
     height: 465px;
     background-image: url(../img/phone.png);
