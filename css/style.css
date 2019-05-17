@@ -175,7 +175,7 @@ ul>li:hover {
 .start-loader.hidden {
     animation: fadeOut 1s;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .load-square {
@@ -190,7 +190,7 @@ ul>li:hover {
 
 .loading-p {
     position: absolute;
-    left: 59%;
+    left: 62%;
     top: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
