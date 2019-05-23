@@ -9,7 +9,7 @@
     .screen-black {
         width: 682px;
         left: 115px;
-        height: 465px;
+        height: 368px;
     }
     .black-screen {
         height: 437px;
@@ -23,9 +23,16 @@
     .zoom {
         display: none;
     }
+    .number {
+        bottom: -25px;
+    }
+    .cross-mobile {
+        left: -62px;
+        top: 306px;
+    }
 }
 
-@media screen and (min-width: 1480px) {
+@media screen and (min-width: 1600px) {
     .laptop-container {
         width: 1207px;
         height: 699px;
@@ -34,6 +41,7 @@
         width: 866px;
         left: 145px;
         top: 37px;
+        height: 470px;
     }
     .black-screen {
         height: 548px;
@@ -44,7 +52,25 @@
     }
     .arrows {
         right: 993px;
-        top: 380px;
+        top: 480px;
+    }
+    .cross-mobile {
+        left: -69px;
+        top: 325px;
+    }
+    .button-full-portfolio {
+        left: 230px;
+        top: 290px;
+    }
+    .number {
+        bottom: -55px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .cross-mobile {
+        left: -46px;
+        top: 330px;
     }
 }
 
@@ -67,6 +93,9 @@
     .text-footer {
         width: 20vw;
         font-size: 14px;
+    }
+    .button-full-portfolio {
+        display: none;
     }
 }
 
@@ -105,7 +134,11 @@
     }
     .arrows {
         right: 623px;
-        top: 195px;
+        top: 284px;
+    }
+    .cross-mobile {
+        left: -42px;
+        top: 280px;
     }
 }
 
@@ -189,6 +222,8 @@
         padding: 50px 0px 0px 100px;
     }
     footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: auto;
     }
@@ -197,6 +232,8 @@
         margin-bottom: 100px;
     }
     .copyright {
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         left: 430px;
         top: 430px;
@@ -205,6 +242,8 @@
         width: auto;
     }
     .footer-column {
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         min-width: 0;
     }
@@ -219,7 +258,16 @@
     }
     .arrows {
         right: 561px;
-        top: 145px;
+        top: 250px;
+    }
+    .phone-show {
+        width: 195px;
+        height: 390px;
+        bottom: -40px;
+    }
+    .cross-mobile {
+        left: -32px;
+        top: 210px;
     }
 }
 
@@ -291,6 +339,8 @@
         width: auto;
     }
     .footer-column {
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         min-width: 0;
     }
@@ -415,6 +465,8 @@
         width: auto;
     }
     .footer-column {
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         min-width: 0;
     }
