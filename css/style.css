@@ -13,6 +13,8 @@
 body {
     background-color: #fff;
     margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body * {
@@ -116,7 +118,7 @@ a {
     color: #eee;
 */
     -webkit-animation: links-color 1.8s linear 1.5s none, links-spacing 2.4s linear 1.5s none;
-            animation: links-color 1.8s linear 1.5s none, links-spacing 2.4s linear 1.5s none;
+    animation: links-color 1.8s linear 1.5s none, links-spacing 2.4s linear 1.5s none;
 }
 
 a:hover {
@@ -178,11 +180,11 @@ ul>li:hover {
 
 .start-loader.hidden {
     -webkit-animation: fadeOut 1s;
-            animation: fadeOut 1s;
+    animation: fadeOut 1s;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
     -webkit-animation-delay: 2s;
-            animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 .load-square {
@@ -193,8 +195,8 @@ ul>li:hover {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .loading-p {
@@ -202,8 +204,8 @@ ul>li:hover {
     left: 62%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     overflow: hidden;
     height: 35px;
 }
@@ -220,17 +222,17 @@ ul>li:hover {
     height: 400px;
     background: #fff;
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     position: absolute;
     right: 400px;
 }
 
 .load-cover-on {
     -webkit-animation: load 2s;
-            animation: load 2s;
+    animation: load 2s;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes load {
@@ -256,9 +258,9 @@ ul>li:hover {
 
 .height {
     -webkit-animation: height 1.7s;
-            animation: height 1.7s;
+    animation: height 1.7s;
     -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fadeOut {
@@ -417,16 +419,16 @@ ul>li:hover {
 
 .rotate-top {
     -webkit-transform: rotatez(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotatez(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotatez(45deg);
     -webkit-transform-origin: 0%;
     left: 2px
 }
 
 .rotate-bottom {
     -webkit-transform: rotatez(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotatez(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotatez(-45deg);
     -webkit-transform-origin: 15%;
 }
 
@@ -444,7 +446,7 @@ ul>li:hover {
 
 .navigations-on {
     -webkit-animation: all-nav 1.8s linear 4s forwards;
-            animation: all-nav 1.8s linear 4s forwards;
+    animation: all-nav 1.8s linear 4s forwards;
 }
 
 
@@ -456,7 +458,7 @@ ul>li:hover {
     height: 100px;
     padding: 0 100px;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .nav-gradient {
@@ -476,7 +478,7 @@ ul>li:hover {
     top: 50%;
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .nav-content>ol {
@@ -522,7 +524,7 @@ ul>li:hover {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     overflow: hidden
 }
 
@@ -530,8 +532,8 @@ ul>li:hover {
     width: 100px;
     height: 100px;
     -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
     position: relative;
 }
 
@@ -540,8 +542,8 @@ ul>li:hover {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     font-size: 14px;
     color: #191919;
 }
@@ -557,7 +559,7 @@ ul>li:hover {
     transition: 1s;
     position: relative;
     -webkit-animation: card-line-draw .5s linear 2s forwards;
-            animation: card-line-draw .5s linear 2s forwards;
+    animation: card-line-draw .5s linear 2s forwards;
 }
 
 
@@ -576,8 +578,8 @@ ul>li:hover {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .nav-lang-content * {
@@ -632,8 +634,8 @@ ul>li:hover {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background-size: contain;
 }
 
@@ -674,8 +676,8 @@ ul>li:hover {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -696,8 +698,8 @@ ul>li:hover {
     top: 51.5%;
     left: 49%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .square-card {
@@ -718,7 +720,7 @@ ul>li:hover {
 
 .black-square-on {
     -webkit-animation: black-square-color 1.8s linear .3s none;
-            animation: black-square-color 1.8s linear .3s none
+    animation: black-square-color 1.8s linear .3s none
 }
 
 .gray-square {
@@ -729,7 +731,7 @@ ul>li:hover {
 
 .gray-square-on {
     -webkit-animation: gray-square-color 1.4s linear .7s none;
-            animation: gray-square-color 1.4s linear .7s none;
+    animation: gray-square-color 1.4s linear .7s none;
 }
 
 .card-container p {
@@ -779,7 +781,7 @@ ul>li:hover {
 
 .designer-on {
     -webkit-animation: designer-opacity 1.1s linear 1.4s forwards;
-            animation: designer-opacity 1.1s linear 1.4s forwards;
+    animation: designer-opacity 1.1s linear 1.4s forwards;
 }
 
 .studzinski {
@@ -801,7 +803,7 @@ ul>li:hover {
 
 .card-line-on {
     -webkit-animation: card-line-draw .5s linear 2s forwards;
-            animation: card-line-draw .5s linear 2s forwards;
+    animation: card-line-draw .5s linear 2s forwards;
 }
 
 .n-line {
@@ -811,8 +813,8 @@ ul>li:hover {
     background-color: #eee;
     position: absolute;
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     left: 290px;
     top: 3px;
     -webkit-transition: 1s;
@@ -863,15 +865,15 @@ ul>li:hover {
     height: 800px;
     background-color: #fff;
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     left: -300px;
     bottom: -110px;
 }
 
 .studzinski-cover-on {
     -webkit-animation: studzinski-cover 1.4s linear .6s forwards;
-            animation: studzinski-cover 1.4s linear .6s forwards;
+    animation: studzinski-cover 1.4s linear .6s forwards;
 }
 
 .black-square-cover {
@@ -880,20 +882,20 @@ ul>li:hover {
     height: 800px;
     background-color: #fff;
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     left: -300px;
     bottom: -168px;
 }
 
 .black-square-cover-on {
     -webkit-animation: black-square-cover 2s linear .3s forwards;
-            animation: black-square-cover 2s linear .3s forwards;
+    animation: black-square-cover 2s linear .3s forwards;
 }
 
 .cover-all-animation {
     -webkit-animation: cover-all .5s linear forwards;
-            animation: cover-all .5s linear forwards;
+    animation: cover-all .5s linear forwards;
 }
 
 .black-square-reverse {
@@ -902,12 +904,12 @@ ul>li:hover {
 
 .designer-reverse {
     -webkit-animation: designer-reverse .5s;
-            animation: designer-reverse .5s;
+    animation: designer-reverse .5s;
 }
 
 .card-line-reverse {
     -webkit-animation: card-line-reverse .5s;
-            animation: card-line-reverse .5s;
+    animation: card-line-reverse .5s;
 }
 
 @-webkit-keyframes studzinski-cover {
@@ -1240,8 +1242,8 @@ ul>li:hover {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-size: 25px;
     letter-spacing: 15px;
     width: 405px;
@@ -1260,8 +1262,8 @@ ul>li:hover {
     top: 60%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: none;
     opacity: 0;
     -webkit-transition: 2s !important;
@@ -1326,8 +1328,8 @@ ul>li:hover {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 20px;
     height: 40px;
 }
@@ -1406,8 +1408,8 @@ ul>li:hover {
     top: 7px;
     left: 26px;
     -webkit-transform: rotate(45deg) scale(.4);
-        -ms-transform: rotate(45deg) scale(.4);
-            transform: rotate(45deg) scale(.4);
+    -ms-transform: rotate(45deg) scale(.4);
+    transform: rotate(45deg) scale(.4);
 }
 
 .crossed {
@@ -1418,8 +1420,8 @@ ul>li:hover {
 
 .cross-left {
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     position: absolute;
 }
 
@@ -1430,8 +1432,8 @@ ul>li:hover {
 
 .cross-right {
     -webkit-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg)
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
 }
 
 .no-scroll {
@@ -1491,7 +1493,7 @@ ul>li:hover {
     border-radius: 25px;
     opacity: 0.75;
     -webkit-box-sizing: content-box;
-            box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .scroller {
@@ -1502,13 +1504,13 @@ ul>li:hover {
     border-radius: 25%;
     background-color: #fff;
     -webkit-animation-name: scroll;
-            animation-name: scroll;
+    animation-name: scroll;
     -webkit-animation-duration: 2.2s;
-            animation-duration: 2.2s;
+    animation-duration: 2.2s;
     -webkit-animation-timing-function: cubic-bezier(.15, .41, .69, .94);
-            animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
     -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes scroll {
@@ -1517,12 +1519,12 @@ ul>li:hover {
     }
     10% {
         -webkit-transform: translateY(0);
-                transform: translateY(0);
+        transform: translateY(0);
         opacity: 1;
     }
     100% {
         -webkit-transform: translateY(10px);
-                transform: translateY(10px);
+        transform: translateY(10px);
         opacity: 0;
     }
 }
@@ -1533,12 +1535,12 @@ ul>li:hover {
     }
     10% {
         -webkit-transform: translateY(0);
-                transform: translateY(0);
+        transform: translateY(0);
         opacity: 1;
     }
     100% {
         -webkit-transform: translateY(10px);
-                transform: translateY(10px);
+        transform: translateY(10px);
         opacity: 0;
     }
 }
@@ -1551,7 +1553,7 @@ ul>li:hover {
     opacity: .7;
     margin-left: 10px;
     -webkit-filter: opacity(.9);
-            filter: opacity(.9);
+    filter: opacity(.9);
     cursor: pointer;
 }
 
@@ -1567,8 +1569,8 @@ ul>li:hover {
     opacity: .7;
     margin-left: 10px;
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     margin-top: 2px;
 }
 
@@ -1588,8 +1590,8 @@ ul>li:hover {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     right: 20px;
     color: #fff;
     opacity: .8;
@@ -1656,8 +1658,8 @@ ul>li:hover {
 
 .cross-mobile {
     -webkit-transform: rotate(0) scale(1);
-        -ms-transform: rotate(0) scale(1);
-            transform: rotate(0) scale(1);
+    -ms-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
     left: -47px;
     top: 325px;
     cursor: pointer;
@@ -1677,8 +1679,8 @@ ul>li:hover {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     overflow: auto;
 }
 
@@ -1771,8 +1773,8 @@ ul>li:hover {
     height: 35px;
     border: 2px solid rgba(255, 255, 255, .75);
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
     position: absolute;
 }
 
@@ -2198,8 +2200,8 @@ footer span {
     height: 30px;
     border: 1px solid #444;
     -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .top-cover {
