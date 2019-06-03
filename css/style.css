@@ -305,6 +305,24 @@ ul>li:hover {
     }
 }
 
+/*POLISH MESSAGE*/
+
+.polish-message {
+position: fixed;
+    width: 500px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #101010;
+    transform: translate(-50%, -50%);
+    background: white;
+    z-index: 99;
+    text-align: center;
+    padding: 100px;
+    box-sizing: border-box;
+    display: none;
+}
+
 
 /*BURGER*/
 
@@ -1288,12 +1306,33 @@ ul>li:hover {
     border: 1px solid #444;
 }
 
+.button-okay {
+    margin: auto;
+    top: 20px;
+}
+
+.button-okay .gray-border {
+    border: 1px solid #eee;
+}
+
+.button-okay .black-border {
+    border: 1px solid #444;
+}
+
+.button-okay p {
+    color: #444;
+}
+
 .slides {
     display: none;
 }
 
 .display-slides {
     display: block;
+}
+
+.polish {
+    cursor: pointer;
 }
 
 .zoom-screen {

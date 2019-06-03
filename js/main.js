@@ -37,6 +37,7 @@
      mobileShow();
      ok();
      playClick();
+     polish();
  });
 
  $(window).scroll(function () {
@@ -502,3 +503,12 @@
          $('video').trigger('click');
      })
  }
+
+function polish() {
+    $('.polish').click(function() {
+        $('.polish-message').addClass('display-slides');
+        $('.button-okay').click(function() {
+            $('.polish-message').removeClass('display-slides');
+        })
+    })
+}
