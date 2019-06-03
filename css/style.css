@@ -1436,6 +1436,14 @@ ul>li:hover {
     transform: rotate(-45deg)
 }
 
+.cross-click {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: -10px;
+}
+
 .no-scroll {
     overflow: hidden;
     height: 100%;
